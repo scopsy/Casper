@@ -37,7 +37,15 @@ into the {body} of the default.hbs template --}}
                     {{content}}
                 </div>
             </section>
-
+            <section class="ads-banner" style="justify-content:space-between;margin:0 auto;padding:1vw 0 2vw;">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({
+                        google_ad_client: "ca-pub-9504234479353184",
+                        enable_page_level_ads: true
+                    });
+                </script>
+            </section>
             {{!-- Email subscribe form at the bottom of the page --}}
             {{#if @labs.subscribers}}
             <section class="subscribe-form">
